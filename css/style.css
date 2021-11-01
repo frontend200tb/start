@@ -117,6 +117,11 @@ color: #ff7AB7;
 
 }
 
+li {
+    padding-bottom: 10px;
+    font-size:20px;
+}
+
 footer {
     padding: 20px;
     text-align: center;
