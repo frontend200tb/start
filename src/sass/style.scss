@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px; /* 1rem */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-bottom: 10px;
+  font-size:20px;
+}
+
+@import '../blocks/page/page';
+@import '../blocks/snow/snow';
+@import '../blocks/header/header';
+@import '../blocks/loader/loader';
+@import '../blocks/content/content';
+@import '../blocks/footer/footer';

@@ -1,0 +1,199 @@
+.loader1 {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  50% {
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  100% {
+    -webkit-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+  }
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  50% {
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  100% {
+    -webkit-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+  }
+}
+@-webkit-keyframes span-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  50% {
+    -webkit-transform: translate(-50px, 0);
+            transform: translate(-50px, 0);
+    border-color: #EE4D68;
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes span-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  50% {
+    -webkit-transform: translate(-50px, 0);
+            transform: translate(-50px, 0);
+    border-color: #EE4D68;
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@-webkit-keyframes span-2 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  50% {
+    -webkit-transform: translate(50px, 0);
+            transform: translate(50px, 0);
+    border-color: #875678;
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes span-2 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  50% {
+    -webkit-transform: translate(50px, 0);
+            transform: translate(50px, 0);
+    border-color: #875678;
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@-webkit-keyframes span-3 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  50% {
+    -webkit-transform: translate(0, -50px);
+            transform: translate(0, -50px);
+    border-color: #FF9900;
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes span-3 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  50% {
+    -webkit-transform: translate(0, -50px);
+            transform: translate(0, -50px);
+    border-color: #FF9900;
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@-webkit-keyframes span-4 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  50% {
+    -webkit-transform: translate(0, 50px);
+            transform: translate(0, 50px);
+    border-color: #00E4F6;
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes span-4 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  50% {
+    -webkit-transform: translate(0, 50px);
+            transform: translate(0, 50px);
+    border-color: #00E4F6;
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+.loader {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  -webkit-animation: loader 2s infinite ease-in-out;
+          animation: loader 2s infinite ease-in-out;
+}
+
+.loader span {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 4px solid #0B1B48;
+}
+
+.loader span:nth-child(1) {
+  -webkit-animation: span-1 2s ease-in-out infinite;
+          animation: span-1 2s ease-in-out infinite;
+}
+
+.loader span:nth-child(2) {
+  -webkit-animation: span-2 2s ease-in-out infinite;
+          animation: span-2 2s ease-in-out infinite;
+}
+
+.loader span:nth-child(3) {
+  -webkit-animation: span-3 2s ease-in-out infinite;
+          animation: span-3 2s ease-in-out infinite;
+}
+
+.loader span:nth-child(4) {
+  -webkit-animation: span-4 2s ease-in-out infinite;
+          animation: span-4 2s ease-in-out infinite;
+}
