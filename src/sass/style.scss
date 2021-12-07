@@ -16,9 +16,9 @@ li {
   font-size:20px;
 }
 
-@import '../blocks/page/page';
-@import '../blocks/snow/snow';
-@import '../blocks/header/header';
-@import '../blocks/loader/loader';
-@import '../blocks/content/content';
-@import '../blocks/footer/footer';
+@import '../includes/page/page';
+@import '../includes/snow/snow';
+@import '../includes/header/header';
+@import '../includes/loader/loader';
+@import '../includes/content/content';
+@import '../includes/footer/footer';
