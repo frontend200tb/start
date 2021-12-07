@@ -1,0 +1,11 @@
+.page {
+    background-color: #7FD3FF;
+    color: #337AB7;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+  .page {
+  font-size: 0.8rem;
+  }
+}
