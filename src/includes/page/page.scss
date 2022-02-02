@@ -1,11 +1,12 @@
 .page {
-    background-color: #7FD3FF;
-    color: #337AB7;
-    width: 100%;
+  padding: 20px 0;
+  width: 100%;
+  color: #337AB7;
+  background-color: #7FD3FF;
 }
 
 @media (max-width: 576px) {
   .page {
-  font-size: 0.8rem;
+    font-size: 0.8rem;
   }
 }

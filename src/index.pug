@@ -1,31 +1,28 @@
 doctype html
 html(lang='ru')
   head
-    include blocks/head/head.pug
+    include includes/head/head.pug
   body
 
     .page.snow
       header.header
-        include blocks/header/header.pug
+        include includes/header/header.pug
       |
       |
-
-      .loader1
-        include blocks/loader/loader.pug
 
       main.content
         article.project
-          include blocks/project/project.pug
+          include includes/project/project.pug
         |
         |
 
         article.verstka
-          include blocks/verstka/verstka.pug
+          include includes/layout/layout.pug
       |
       |
 
 
       footer.container.footer
-        include blocks/footer/footer.pug
+        include includes/footer/footer.pug
       |
       |

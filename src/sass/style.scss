@@ -1,15 +1,13 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   font-size: 15px; /* 1rem */
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
 
 li {
   padding-bottom: 10px;
@@ -19,6 +17,5 @@ li {
 @import '../includes/page/page';
 @import '../includes/snow/snow';
 @import '../includes/header/header';
-@import '../includes/loader/loader';
 @import '../includes/content/content';
 @import '../includes/footer/footer';
