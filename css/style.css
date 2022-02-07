@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -27,14 +26,6 @@ li {
     font-size: 0.8rem;
   }
 }
-@-webkit-keyframes snow {
-  0% {
-    background-position: 0px 0px, 0px 0px, 0px 0px;
-  }
-  100% {
-    background-position: 500px 1000px, 400px 400px, 300px 300px;
-  }
-}
 @keyframes snow {
   0% {
     background-position: 0px 0px, 0px 0px, 0px 0px;
@@ -46,8 +37,7 @@ li {
 .snow {
   background-image: url(../img/snowflake.png), url(../img/snowflake3.png), url(../img/snowflake2.png);
   height: 100%;
-  -webkit-animation: snow 20s linear infinite;
-          animation: snow 20s linear infinite;
+  animation: snow 20s linear infinite;
 }
 
 .header__first-row {
